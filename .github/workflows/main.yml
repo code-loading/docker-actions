@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: codeloading/nginx-hello:v1
+          tags: codeloading/nginx-hello:v2
           #build-args: |
             #arg1=value1
             #arg2=value2
